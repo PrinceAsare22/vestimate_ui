@@ -16,7 +16,6 @@ class CustomGridView extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: GridView.builder(
-        physics: const ScrollPhysics(),
         itemCount: gridItems.length,
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,

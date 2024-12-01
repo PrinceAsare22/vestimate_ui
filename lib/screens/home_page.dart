@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         toolbarHeight: 100,
         title: Center(child: Image.asset('lib/assets/vestimate_logo.png')),
+        backgroundColor: Colors.transparent,
       ),
       bottomNavigationBar: MyBottomNavBar(),
       body: Container(
